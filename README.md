@@ -7,21 +7,14 @@
     entering the number of teams competing, the user will enter the name of the teams and how many points they won.  The results 
     of the tournament will be displayed at the end.
 */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication1
-{
+
     public class Team //parent class
     {
         public string name;
         public int wins;
         public int loss;
     }
-
     public class SoccerTeam : Team //child class
     {
         public int draw;
@@ -131,4 +124,5 @@ namespace ConsoleApplication1
 
     
 }
+
  
